@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">BLE Scan and Upload</string>
+    <string name="CLIENT_CHARACTERISTIC_CONFIG">00002902-0000-1000-8000-00805f9b34fb"</string>
+    <string name="ip">server_ip</string>
+    <string name="port">server_port</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_server">Server Settings</string>
+
+    <string name="pref_title_ip_address">Server IP address</string>
+    <!--<string name="pref_description_ip_address">
+        eg. http://10.0.0.80
+    </string>-->
+
+
+    <string name="pref_title_port">Server port</string>
+    <string name="pref_title_upload">Upload script name</string>
+    <!--<string name="pref_default_port">eg. 1313</string>-->
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_security">Security</string>
+    <string name="pref_title_passcode">Passcode</string>
+    <string name="pref_default_passcode">1234</string>
+
+    <string name="pref_master">super</string>
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- Preference keys -->
+    <string name="key_ip_address">ip_address</string>
+    <string name="key_port">port</string>
+    <string name="key_upload_script">Upload script</string>
+    <string name="key_master">master_key</string>
+    <string name="key_passcode">passcode</string>
+</resources>
